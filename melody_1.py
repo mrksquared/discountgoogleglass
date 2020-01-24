@@ -15,7 +15,7 @@ def green():
 
     headers = {
         'content-type': "application/json",
-        'x-aio-key': "cc7c424522214ee6ae2106eebed45135"
+        'x-aio-key': "************************"
         }
 
     conn.request("POST", "/api/v2/kvnkey/feeds/color/data", payload, headers)
